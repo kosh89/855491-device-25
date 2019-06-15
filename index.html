@@ -17,9 +17,9 @@
         </a>
       </div>
       <nav class="header__navigation navigation">
-        <ul class="navigation__list navigation__list--line-1">
+        <ul class="navigation__list navigation__list--line-top">
           <li class="navigation__item navigation__item--search">
-            <form action="" class="navigation__search-form">
+            <form class="navigation__search-form" action="https://echo.htmlacademy.ru" method="post">
               <input class="navigation__search-field" type="text" placeholder="Поиск по сайту">
               <input class="navigation__search-submit" type="submit" value="Найти">
             </form>
@@ -34,23 +34,17 @@
             <a class="navigation__link" href="#">Корзина</a>
           </li>
         </ul>
-        <ul class="navigation__list navigation__list--line-2">
+        <ul class="navigation__list navigation__list--line-bottom">
           <li class="navigation__item navigation__item--catalog">
-            <a class="navigation__link" href="catalog.html">Каталог товаров</a>
-            <div class="navigation__catalog">
-              <ul class="navigation__column">
-                <li><a class="navigation__link" href="#">Виртуальная реальность</a></li>
-                <li><a class="navigation__link" href="#">Моноподы для селфи</a></li>
-                <li><a class="navigation__link" href="#">Экшн-камеры</a></li>
-              </ul>
-              <ul class="navigation__column">
-                <li><a class="navigation__link" href="#">Фитнес-браслеты</a></li>
-                <li><a class="navigation__link" href="#">Умные часы</a></li>
-              </ul>
-              <ul class="navigation__column">
-                <li><a class="navigation__link" href="#">Квадрокоптеры</a></li>
-              </ul>
-            </div>
+            <a class="navigation__link navigation__link--catalog" href="catalog.html">Каталог товаров</a>
+            <ul class="navigation__catalog">
+              <li><a class="navigation__link" href="#">Виртуальная реальность</a></li>
+              <li><a class="navigation__link" href="#">Фитнес-браслеты</a></li>
+              <li><a class="navigation__link" href="#">Квадрокоптеры</a></li>
+              <li><a class="navigation__link" href="#">Моноподы для селфи</a></li>
+              <li><a class="navigation__link" href="#">Умные часы</a></li>
+              <li><a class="navigation__link" href="#">Экшн-камеры</a></li>
+            </ul>
           </li>
           <li class="navigation__item navigation__item--delivery">
             <a class="navigation__link" href="#">Доставка</a>
@@ -67,12 +61,15 @@
     <main>
       <h1 class="visually-hidden">DEVICE</h1>
       <section class="slider">
-        <article class="slider__item">
+        <h1 class="visually-hidden">Слайдер</h1>
+        <article class="slider__item slider__item--active" data-slide="slide-1">
           <div class="slider__photo">
             <img src="img/slider/selfie-stick.png" width="384" height="486" alt="Палка для селфи">
           </div>
           <div class="slider__description">
-            <h1 class="slider__title">Делай селфи, как Бен Стиллер!</h1>
+            <h1 class="slider__title">
+              Делай селфи,<br>как Бен Стиллер!
+            </h1>
             <p class="slider__info">
               Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом
               всего 5 килограмм.
@@ -80,9 +77,9 @@
             <div class="slider__actions">
               <a href="#" class="slider__more">Подробнее</a>
               <div class="slider__buttons">
-                <button class="slider__button slider__button--active"></button>
-                <button class="slider__button"></button>
-                <button class="slider__button"></button>
+                <button class="slider__button slider__button--active" data-slide="slide-1"></button>
+                <button class="slider__button" data-slide="slide-2"></button>
+                <button class="slider__button" data-slide="slide-3"></button>
               </div>
             </div>
             <div class="slider__features">
@@ -101,12 +98,69 @@
             </div>
           </div>
         </article>
+        <article class="slider__item" data-slide="slide-2">
+          <div class="slider__photo">
+            <img src="img/slider//fitness-band.png" width="345" height="485" alt="Фитнесс-браслет">
+          </div>
+          <div class="slider__description">
+            <h1 class="slider__title">
+              Худеем<br>правильно!
+            </h1>
+            <p class="slider__info">
+              Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
+            </p>
+            <div class="slider__actions">
+              <a href="#" class="slider__more">Подробнее</a>
+              <div class="slider__buttons">
+                <button class="slider__button" data-slide="slide-1"></button>
+                <button class="slider__button slider__button--active" data-slide="slide-2"></button>
+                <button class="slider__button" data-slide="slide-3"></button>
+              </div>
+            </div>
+            <div class="slider__features">
+              <div class="slider__feature">
+                <p class="slider__big-text">48 часов</p>
+                <p class="slider__small-text">Без подзарядки</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="slider__item" data-slide="slide-3">
+          <div class="slider__photo">
+            <img src="img/slider/quadcopter.png" width="526" height="334" alt="Квадрокоптер">
+          </div>
+          <div class="slider__description">
+            <h1 class="slider__title">
+              Порхает как бабочка, жалит как пчела!
+            </h1>
+            <p class="slider__info">
+              Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную
+              камеру.
+            </p>
+            <div class="slider__actions">
+              <a href="#" class="slider__more">Подробнее</a>
+              <div class="slider__buttons">
+                <button class="slider__button" data-slide="slide-1"></button>
+                <button class="slider__button" data-slide="slide-2"></button>
+                <button class="slider__button slider__button--active" data-slide="slide-3"></button>
+              </div>
+            </div>
+            <div class="slider__features">
+              <div class="slider__feature">
+                <p class="slider__big-text">800 м</p>
+                <p class="slider__small-text">Дальность полёта</p>
+              </div>
+              <div class="slider__feature">
+                <p class="slider__big-text">50 м</p>
+                <p class="slider__small-text">Радиус поражения</p>
+              </div>
+            </div>
+          </div>
+        </article>
       </section>
     </main>
   </div>
-
-
-
+  <script src="js/slider.js"></script>
 </body>
 
 </html>
