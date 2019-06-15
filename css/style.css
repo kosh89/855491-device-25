@@ -211,7 +211,13 @@ body {
 }
 
 .navigation__search-submit:active {
-  color: rgba(255, 255, 255, .3)
+  background-color: #000;
+  color: rgba(255, 255, 255, .3);
+  display: inline-block;
+}
+
+.navigation__search-submit:active .navigation__search-field {
+  border-bottom: 2px solid #000;
 }
 
 .navigation__item--catalog {
