@@ -71,16 +71,6 @@ body {
   position: relative;
 }
 
-.header::after {
-  position: absolute;
-  content: "";
-  width: 100px;
-  height: 7px;
-  background-color: #fff;
-  bottom: 66px;
-  left: 52%;
-}
-
 .header--main {
   padding-bottom: 160px;
 }
@@ -346,6 +336,17 @@ body {
   display: flex;
   flex-direction: column;
   padding: 79px 50px 0 34px;
+  position: relative;
+}
+
+.slider__description::before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 7px;
+  background-color: #fff;
+  top: 36px;
+  left: 36px;
 }
 
 .slider__title {
