@@ -391,8 +391,15 @@ body {
   font-weight: 800;
   letter-spacing: 4px;
   color: #000;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+}
+
+.slider__more:hover {
   cursor: pointer;
+}
+
+.slider__more:active {
+  color: rgba(0, 0, 0, .3);
 }
 
 .slider__more::before {
@@ -525,6 +532,7 @@ body {
 
 .services {
   position: relative;
+  margin-bottom: 163px;
 }
 
 .services .wrapper {
@@ -604,7 +612,7 @@ body {
 .services__info {
   display: none;
   flex-direction: column;
-  padding: 69px 117px;
+  padding: 74px 117px 0px 117px;
 }
 
 .services__info--active {
@@ -613,11 +621,11 @@ body {
 
 .services__title {
   margin: 0;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   padding: 0;
   font-family: 'Gilroy', sans-serif;
   font-size: 47px;
-  line-height: 56px;
+  line-height: 48px;
   font-weight: 800;  
   letter-spacing: 1px;
 }
@@ -644,4 +652,143 @@ body {
   background-image: url(../img/svg/credit.svg);
   background-repeat: no-repeat;
   background-position: 89% 47%;
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 59px;
+}
+
+.clients__item {
+  margin-bottom: 25px;
+}
+
+.clients__item:hover img {
+  filter: grayscale(100%) opacity(.2);
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 82px;
+}
+
+.information__item {
+  width: 560px;
+  padding-top: 52px;
+  position: relative;
+}
+
+.information__item::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 7px;
+  background-color: #000;
+  left: 0;
+  top: 0;
+}
+
+.information__title {
+  margin: 0;
+  margin-bottom: 43px;
+  padding: 0;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;  
+  letter-spacing: 1px;
+}
+
+.information__description {
+  margin: 0;
+  margin-bottom: 66px;
+  padding: 0;
+}
+
+.information__item--about .information__description {  
+  padding-right: 85px;
+}
+
+.information__item--contacts .information__description {
+  margin-bottom: 40px;
+  padding-right: 20px;
+}
+
+.information__list {
+  margin: 0;
+  margin-bottom: 54px;
+  padding: 0;
+  list-style: none;
+}
+
+.information__transport-company {
+  padding-left: 35px;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 800;
+  position: relative;
+}
+
+.information__transport-company::before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-image: url(../img/svg/slider-button-empty.svg);
+  background-size: cover;
+  opacity: 0.3;
+  left: 0;
+  top: 17px;
+}
+
+.information__link {
+  width: 260px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 3.5px;
+  color: #000;
+  text-transform: uppercase;  
+}
+
+.information__link:hover {
+  cursor: pointer;
+}
+
+.information__link:active {
+  color: rgba(0, 0, 0, .3);
+}
+
+.information__link::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 8px;
+  background-color: #f0c52e;
+  left: 0;
+  z-index: -1;
+  transition: all ease .2s;
+}
+
+.information__link:hover::before {
+  height: 100%;
+}
+
+.information__map {
+  width: 100%;
+  height: 222px;
+  border: 0;
+  margin-bottom: 59px;
 }
