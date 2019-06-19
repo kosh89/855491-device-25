@@ -60,9 +60,85 @@
         </ul>
       </nav>
     </header>
-
-    
   </div>
+
+  <main>
+    <div class="wrapper">
+      <h1 class="page-title">Моноподы для селфи</h1>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item">
+          <a href="index.html" class="breadcrumbs__link">Главная</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="catalog.html" class="breadcrumbs__link">Каталог товаров</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link">Моноподы для селфи</a>
+        </li>
+      </ul>
+    </div>
+    <div class="catalog-columns">
+      <section class="filter">
+        <h2 class="fliter__title">Фильтр:</h2>
+        <form class="filter__forms" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="filter__form range">
+            <legend>Стоимость</legend>
+            <div class="range__controls">
+              <div class="range__scale">
+                <div class="range__bar"></div>
+              </div>
+              <div class="range__toggle range__toggle--min"></div>
+              <div class="range__toggle range__toggle--max"></div>
+            </div>
+            <div class="range__price">
+              <label class="range__min-price">от <input type="text" name="min-price" value="0"></label>
+              <label class="range__max-price">до <input type="text" name="max-price" value="5000"></label>
+            </div>
+          </fieldset>
+          <fieldset class="filter__form color">
+            <legend>Цвет</legend>
+            <ul class="color__list">
+              <li class="color__option">
+                <input type="checkbox" class="visually-hidden color__checkbox" id="color-black" name="color-black" checked>
+                <label for="color-black">Черный</label>
+              </li>
+              <li class="color__option">
+                <input type="checkbox" class="visually-hidden color__checkbox" id="color-white" name="color-white">
+                <label for="color-white">Белый</label>
+              </li>
+              <li class="color__option">
+                <input type="checkbox" class="visually-hidden color__checkbox" id="color-blue" name="color-blue" checked>
+                <label for="color-blue">Синий</label>
+              </li>
+              <li class="color__option">
+                <input type="checkbox" class="visually-hidden color__checkbox" id="color-red" name="color-red" checked>
+                <label for="color-red">Красный</label>
+              </li>
+              <li class="color__option">
+                <input type="checkbox" class="visually-hidden color__checkbox" id="color-pink" name="color-pink">
+                <label for="color-pink">Розовый</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter__form bluetooth">
+            <legend>Bluetooth</legend>
+            <ul class="bluetooth__list">
+              <li class="bluetooth__option">
+                <input type="radio" class="visually-hidden bluetooth__checkbox" id="bluetooth-yes" name="bluetooth" value="yes" checked>
+                <label for="bluetooth-yes">Есть</label>
+              </li>
+              <li class="bluetooth__option">
+                <input type="radio" class="visually-hidden bluetooth__checkbox" id="bluetooth-no" name="bluetooth" value="no">
+                <label for="bluetooth-no">Нет</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="filter__submit" type="submit">Показать</button>
+        </form>
+      </section>
+      
+    </div>
+  </main>
 
   <footer class="footer">
     <div class="wrapper">
