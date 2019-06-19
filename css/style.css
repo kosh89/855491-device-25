@@ -830,17 +830,17 @@ body {
   margin-right: auto;
 }
 
-.footer__logo {
+.footer__logo svg {
   fill: #ffc600;
   margin-bottom: 30px;
 }
 
-.footer__logo:hover {
+.footer__logo:hover svg {
   fill-opacity: .6;
-  cursor: pointer;
+  
 }
 
-.footer__logo:active {
+.footer__logo:active svg {
   fill-opacity: .3;
 }
 
