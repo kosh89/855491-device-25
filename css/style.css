@@ -40,7 +40,7 @@ img {
 }
 
 .page-title {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 47px;
   line-height: 48px;
   color: #000;
@@ -131,7 +131,7 @@ body {
 }
 
 .navigation__link--big {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -332,7 +332,7 @@ body {
 
 .slider__number {
   position: absolute;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 179px;
   line-height: 179px;
   font-weight: 800;
@@ -365,7 +365,7 @@ body {
 }
 
 .slider__title {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 47px;
   line-height: 56px;
   font-weight: 800;
@@ -396,7 +396,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -467,7 +467,7 @@ body {
 }
 
 .slider__big-text {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 36px;
   line-height: 48px;
   font-weight: 300;
@@ -533,7 +533,7 @@ body {
 }
 
 .popular__title {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -571,6 +571,7 @@ body {
   width: 284px;
   border-right: 7px solid #000;
   padding: 79px 0px 45px 0;
+  position: relative;
 }
 
 .services__button {
@@ -582,7 +583,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -634,7 +635,7 @@ body {
   margin: 0;
   margin-bottom: 30px;
   padding: 0;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 47px;
   line-height: 48px;
   font-weight: 800;  
@@ -650,19 +651,19 @@ body {
 .services__info--delivery {
   background-image: url(../img/svg/delivery.svg);
   background-repeat: no-repeat;
-  background-position: 91% 55%;
+  background-position: 91% 85px;
 }
 
 .services__info--warranty {
   background-image: url(../img/svg/warranty.svg);
   background-repeat: no-repeat;
-  background-position: 91% 50%;
+  background-position: 91% 62px;
 }
 
 .services__info--credit {
   background-image: url(../img/svg/credit.svg);
   background-repeat: no-repeat;
-  background-position: 89% 47%;
+  background-position: 89% 62px;
 }
 
 .clients__list {
@@ -711,7 +712,7 @@ body {
   margin: 0;
   margin-bottom: 43px;
   padding: 0;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 47px;
   line-height: 48px;
   font-weight: 800;  
@@ -742,7 +743,7 @@ body {
 
 .information__transport-company {
   padding-left: 35px;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 16px;
   line-height: 40px;
   font-weight: 800;
@@ -768,7 +769,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -1017,7 +1018,7 @@ body {
 .fliter__title,
 .sort__title {
   position: relative;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 24px;
@@ -1056,7 +1057,7 @@ body {
 }
 
 .filter__form legend {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -1191,7 +1192,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
