@@ -154,7 +154,7 @@
               камеру.
             </p>
             <div class="slider__actions">
-              <a href="#" class="slider__more">Подробнее</a>              
+              <a href="#" class="slider__more">Подробнее</a>
             </div>
             <div class="slider__features">
               <div class="slider__feature">
@@ -428,7 +428,7 @@
           <iframe class="information__map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1891.2683770190822!2d37.52833177538722!3d55.68707859347343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1560897329814!5m2!1sru!2sru"
             allowfullscreen></iframe>
-          <a class="information__link" href="#">Напишите нам</a>
+          <a class="information__link information__link--show-form" href="write-us.html">Напишите нам</a>
         </div>
       </section>
     </div>
@@ -534,7 +534,31 @@
         </a>
       </div>
     </div>
-  </footer>  
+  </footer>
+
+  <form class="write-us" action="https://echo.htmlacademy.ru" method="post">
+    <button class="write-us__close">
+      <svg width="55" height="55" viewBox="0 0 55 55">
+        <path fill="#F0C52E"
+          d="M27.5 0C12.312 0 0 12.312 0 27.5S12.312 55 27.5 55 55 42.688 55 27.5 42.688 0 27.5 0zm11.476 37.072l-1.486 1.426-9.99-9.574-9.987 9.574-1.488-1.426 9.988-9.573-9.987-9.573 1.487-1.425 9.987 9.573 9.988-9.573 1.487 1.425-9.989 9.574 9.99 9.572z" />
+        </svg>
+    </button>
+    <div class="form__item form__item--name write-us__item write-us__item--name">
+      <label for="name">Ваше имя</label>
+      <input type="text" id="name" name="name" placeholder="Имя Фамилия">
+    </div>
+    <div class="write-us__item write-us__item--email">
+      <label for="email">Ваше e-mail</label>
+      <input type="text" id="email" name="email" placeholder="email@example.com">
+    </div>
+    <div class="write-us__item write-us__item--message">
+      <label for="message">Текст письма</label>
+      <textarea name="message" id="message" rows="8" placeholder="В свободной форме"></textarea>
+    </div>
+    <button class="write-us__submit" type="submit">Отправить</button>
+  </form>
+
+  <script src="js/modal.js"></script>
 </body>
 
 </html>
