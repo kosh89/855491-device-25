@@ -1081,6 +1081,14 @@ body {
   color: rgba(0, 0, 0, .3);
 }
 
+.breadcrumbs__link:hover {
+  color: rgba(0, 0, 0, .6);
+}
+
+.breadcrumbs__link:active {
+  color: rgba(0, 0, 0, .1);
+}
+
 .catalog-columns .wrapper {
   display: flex;
   flex-direction: row;
@@ -1173,8 +1181,12 @@ body {
   background-size: cover;
 }
 
+.range__toggle:hover {
+  transform: scale(1.2);
+}
+
 .range__toggle--max {
-  left: 53%;
+  left: 106px;
 }
 
 .range__price {
