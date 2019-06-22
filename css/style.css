@@ -1444,6 +1444,7 @@ body {
   outline: none;
   cursor: pointer;
   z-index: 1;
+  color: #000;
 }
 .goods__to-cart::before {  
   position: absolute;
