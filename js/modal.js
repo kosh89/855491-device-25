@@ -1,23 +1,34 @@
 const writeUsForm = document.querySelector('.write-us');
+const mapPopup = document.querySelector('.map-popup');
 const name = document.querySelector('#name');
 const email = document.querySelector('#email');
 const message = document.querySelector('#message');
 const formErrorClass = 'form--error';
-const formCloseBtn = document.querySelector('.write-us__close');
+const formCloseBtn = document.querySelectorAll('.modal-close');
 const formShowBtn = document.querySelector('.information__link--show-form');
+const mapShowBtn = document.querySelector('.information__map');
+const activeModalClass = 'modal-active';
 
 let isStorageSupport = true;
 let storageName = '';
 let storageEmail = '';
 
-formCloseBtn.addEventListener('click', function (evt) {
-  evt.preventDefault();
-  writeUsForm.classList.remove('write-us--active')
-})
+for (let i = 0; i < formCloseBtn.length; i++) {
+  formCloseBtn[i].addEventListener('click', function (evt) {
+    evt.preventDefault();
+    writeUsForm.classList.remove(activeModalClass);
+    mapPopup.classList.remove(activeModalClass);
+  })
+}
 
 formShowBtn.addEventListener('click', function (evt) {
   evt.preventDefault();
-  writeUsForm.classList.add('write-us--active')
+  writeUsForm.classList.add(activeModalClass)
+})
+
+mapShowBtn.addEventListener('click', function (evt) {
+  evt.preventDefault();
+  mapPopup.classList.add(activeModalClass);
 })
 
 try {
