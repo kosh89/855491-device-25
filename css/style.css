@@ -2084,21 +2084,6 @@ body {
   font-weight: 300;
 }
 
-.write-us input:focus::-webkit-input-placeholder,
-.write-us textarea:focus::-webkit-input-placeholder {
-  color: #464646;
-}
-
-.write-us input:focus:-ms-input-placeholder,
-.write-us textarea:focus:-ms-input-placeholder {
-  color: #464646;
-}
-
-.write-us input:focus::-ms-input-placeholder,
-.write-us textarea:focus::-ms-input-placeholder {
-  color: #464646;
-}
-
 .write-us__submit {
   min-width: 200px;
   height: 40px;
