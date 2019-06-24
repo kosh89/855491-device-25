@@ -2022,6 +2022,21 @@ body {
   border-color: #f7e296;
 }
 
+.write-us input:focus::-webkit-input-placeholder,
+.write-us textarea:focus::-webkit-input-placeholder {
+  color: #464646;
+}
+
+.write-us input:focus:-ms-input-placeholder,
+.write-us textarea:focus:-ms-input-placeholder {
+  color: #464646;
+}
+
+.write-us input:focus::-ms-input-placeholder,
+.write-us textarea:focus::-ms-input-placeholder {
+  color: #464646;
+}
+
 .write-us input:focus::placeholder,
 .write-us textarea:focus::placeholder {
   color: #464646;
