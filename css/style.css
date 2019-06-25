@@ -4,30 +4,30 @@
 }
 
 @font-face {
-  font-family: 'Open Sans';  
-  src: url(../fonts/opensanslight.woff) format('woff');
+  font-family: 'Open Sans';
   src: url(../fonts/opensanslight.woff2) format('woff2');
+  src: url(../fonts/opensanslight.woff) format('woff');  
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Open Sans';  
-  src: url(../fonts/opensans.woff) format('woff');
+  font-family: 'Open Sans';
   src: url(../fonts/opensans.woff2) format('woff2');
+  src: url(../fonts/opensans.woff) format('woff');  
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Gilroy';  
-  src: url(../fonts/gilroylight.woff) format('woff');
+  font-family: 'Gilroy';
   src: url(../fonts/gilroylight.woff2) format('woff2');
+  src: url(../fonts/gilroylight.woff) format('woff');  
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Gilroy';  
-  src: url(../fonts/gilroyextrabold.woff) format('woff');
+  font-family: 'Gilroy';
   src: url(../fonts/gilroyextrabold.woff2) format('woff2');
+  src: url(../fonts/gilroyextrabold.woff) format('woff');  
   font-weight: 800;
 }
 
@@ -414,9 +414,9 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 79px 50px 0 34px;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 79px 42px 0 34px;
   position: relative;
   width: 595px;
 }
@@ -814,6 +814,7 @@ body {
 
 .services__info {
   display: none;
+  width: 1000px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
