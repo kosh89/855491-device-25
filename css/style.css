@@ -41,7 +41,7 @@ img {
 }
 
 .page-title {
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 47px;
   line-height: 48px;
   color: #000;
@@ -70,7 +70,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -152,7 +152,7 @@ body {
 }
 
 .navigation__link--big {
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -166,7 +166,7 @@ body {
 }
 
 .navigation__catalog .navigation__link {
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   color: #000;
   font-size: 15px;
   line-height: 36px;
@@ -393,7 +393,7 @@ body {
 
 .slider__number {
   position: absolute;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 179px;
   line-height: 179px;
   font-weight: 800;
@@ -418,6 +418,7 @@ body {
           flex-direction: column;
   padding: 79px 50px 0 34px;
   position: relative;
+  width: 595px;
 }
 
 .slider__description::before {
@@ -431,7 +432,7 @@ body {
 }
 
 .slider__title {
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 47px;
   line-height: 56px;
   font-weight: 800;
@@ -477,7 +478,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -591,7 +592,7 @@ body {
 }
 
 .slider__big-text {
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 36px;
   line-height: 48px;
   font-weight: 300;
@@ -671,7 +672,7 @@ body {
 }
 
 .popular__title {
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -734,7 +735,7 @@ body {
           justify-content: center;
   position: absolute;
   left: 0;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -831,7 +832,7 @@ body {
   margin: 0;
   margin-bottom: 30px;
   padding: 0;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 47px;
   line-height: 48px;
   font-weight: 800;  
@@ -929,7 +930,7 @@ body {
   margin: 0;
   margin-bottom: 43px;
   padding: 0;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 47px;
   line-height: 48px;
   font-weight: 800;  
@@ -960,7 +961,7 @@ body {
 
 .information__transport-company {
   padding-left: 35px;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 16px;
   line-height: 40px;
   font-weight: 800;
@@ -992,7 +993,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -1308,7 +1309,7 @@ body {
 .filter__title,
 .sort__title {
   position: relative;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 24px;
@@ -1358,7 +1359,7 @@ body {
 }
 
 .filter__form legend {
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -1505,7 +1506,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -1687,7 +1688,7 @@ body {
   height: 60px;
   top: 30px;
   right: 26px;
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy", Helvetica, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 800;
@@ -1758,7 +1759,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;  
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -1829,7 +1830,7 @@ body {
 .goods__title {
   margin: 0;
   padding: 0;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -1840,7 +1841,7 @@ body {
   margin: 0;
   margin-left: 15px;
   padding: 0;
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
@@ -1874,7 +1875,7 @@ body {
 
 .pagination__button,
 .pagination__num {
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 24px;
@@ -1987,7 +1988,7 @@ body {
 }
 
 .write-us label {
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
@@ -2003,7 +2004,7 @@ body {
   background-color: #f2f2f2;
   padding: 12px 20px;
   outline: none;
-  font-family: 'Open Sans', 'Arial', sans-serif;  
+  font-family: 'Open Sans', Helvetica, sans-serif;  
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -2049,7 +2050,7 @@ body {
 .write-us input::-webkit-input-placeholder,
 .write-us textarea::-webkit-input-placeholder {
   color: rgba(0, 0, 0, .4);
-  font-family: 'Open Sans', 'Arial', sans-serif;  
+  font-family: 'Open Sans', Helvetica, sans-serif;  
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
@@ -2058,7 +2059,7 @@ body {
 .write-us input:-ms-input-placeholder,
 .write-us textarea:-ms-input-placeholder {
   color: rgba(0, 0, 0, .4);
-  font-family: 'Open Sans', 'Arial', sans-serif;  
+  font-family: 'Open Sans', Helvetica, sans-serif;  
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
@@ -2067,7 +2068,7 @@ body {
 .write-us input::-ms-input-placeholder,
 .write-us textarea::-ms-input-placeholder {
   color: rgba(0, 0, 0, .4);
-  font-family: 'Open Sans', 'Arial', sans-serif;  
+  font-family: 'Open Sans', Helvetica, sans-serif;  
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
@@ -2076,7 +2077,7 @@ body {
 .write-us input::placeholder,
 .write-us textarea::placeholder {
   color: rgba(0, 0, 0, .4);
-  font-family: 'Open Sans', 'Arial', sans-serif;  
+  font-family: 'Open Sans', Helvetica, sans-serif;  
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
@@ -2097,7 +2098,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;  
-  font-family: 'Gilroy', Arial, sans-serif;
+  font-family: 'Gilroy', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 800;
