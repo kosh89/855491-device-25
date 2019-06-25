@@ -1153,10 +1153,6 @@ body {
   color: #fff;
 }
 
-.footer__item--links {
-  padding-top: 60px;
-}
-
 .social {
   margin: 0;
   padding: 0;
@@ -1194,10 +1190,11 @@ body {
 }
 
 .footer__item--links {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   position: relative;
+  padding-top: 60px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;  
 }
 
 .footer__item--links::before {
